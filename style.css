@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Tapestry", serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    margin-right: 70px;
+}
+.burger-image {
+  position: relative;
+}
+
+/* Apply transition directly to the image you want to move */
+.burger-image img#img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 1.5s ease-in-out; /* 👈 smooth motion */
+  z-index: 2; /* ensure it’s above the background image */
+}
+
+/* Hover effect */
+.burger-image:hover img#img1 {
+  transform: translateX(-200px);
+}
+
+.hero-content h1 {
+  text-shadow: 3px 3px 8px rgb(224, 111, 5);
+}
+.section-2{
+    margin-top: 240px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    gap: 45px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.features{
+    background-image:linear-gradient(45deg,rgba(194, 14, 14, 0.63),yellow);
+    box-shadow: 2px 2px 10px;
+}
+.reviews{
+    background-image:linear-gradient(45deg,rgba(194, 14, 14, 0.63),rgb(216, 197, 23));
+    box-shadow: 2px 2px 10px;
+}
+.burger-image{
+    position: relative;
+}
+.burger-image img{
+    position: absolute;
+}

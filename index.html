@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic-burger</title>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Tapestry&display=swap"
+      rel="stylesheet"
+    />
+    <!-- heading : font-family: "Bungee Spice", sans-serif;    -->
+    <!-- content: font-family: "Tapestry", serif;    -->
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- tailwin.css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- animation.css -->
+    
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body class="bg-yellow-100">
+    <header>
+      <nav class="flex justify-between p">
+        <img class="animate__animated animate__fadeInLeft" src="./assets/logo.png" alt="" />
+        <ul class="gap-10 align-center animate__animated animate__fadeInRight text-3xl">
+          <li class="text-orange-600 hover:text-orange-300">
+            <a href="">home</a>
+          </li>
+          <li class="text-orange-600 hover:text-orange-300">
+            <a href="">reviews</a>
+          </li>
+          <li
+            class="bg-red-600 hover:bg-orange-900 rounded-full p-2 px-3 shadow-2xl"
+            class="button"
+          >
+            <a class="text-white" href="">hover-here</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-section mt-20 flex justify-center gap-10">
+      <div  class="burger-image me-10" style="width: 250px; height: 250px">
+        <img src="./assets/second image.jpg" class="w-100 h-100 rounded-2xl" style="z-index: 1;"  alt="">
+        <img
+          src="./assets/magic-burger image.jpg"
+          class="w-100 h-100 rounded-2xl" style="z-index: 0;"
+          alt="" id="img1"
+        />
+      </div>
+      <div class="hero-content" style="width: 600px;">
+        <marquee behavior="" direction="">
+          <p class="text-3xl text-amber-500">
+            “A burger that never runs out of fuel.”
+          </p>
+        </marquee>
+        <h1 class="text-5xl animate__animated animate__heartBeat" style="font-family: Bungee Spice, sans-serif">
+          The Infinity burger
+        </h1>
+        <br />
+        <p class="text-amber-950">
+          Step into the future of flavor and energy with The Infinity Bite — the
+          only burger built to outlast your hunger and your day. Crafted with
+          protein-rich patties, endurance-boosting grains, and a secret blend of
+          “forever-fuel” ingredients, every bite recharges your body like a
+          power cell.
+        </p>
+        <br>
+        <p class="text-amber-950">From sunrise meetings to midnight adventures, this isn’t just a burger — it’s a 24-hour mission in a bun.
+Bite once, stay unstoppable. 💪🍔⚡</p>
+<button class="bg-green-600 p-5 rounded-full mt-2 hover:bg-orange-600" >Know more</button>
+      </div>
+    </section>
+    <section class="section-2 mb-100">
+        <div class="features border border-rounded rounded-2xl  mb-20"  data-aos="flip-left" data-aos-duration="3000" >
+            <h3 class="text-3xl text-lime-800 text-center my-4">Featuresss...</h3>
+            <li style="color: rgb(27, 32, 7);" type="none" ><i class="fa-solid fa-bolt  text-red-400"></i>Every mouthful hits like a lightning bolt — infused with protein, natural caffeine, and endurance grains to keep your engine revving for 24 straight hours.</li><br>
+            <li style="color: rgb(27, 32, 7);" type="none" ><i class="fa-solid fa-infinity text-blue-400"></i>A burger that never clocks out. The secret “forever-fuel” blend keeps you running from sunrise to moonlight — no snack breaks needed.</li><br>
+            <li style="color: rgb(27, 32, 7);" type="none" class="pb-5" ><i class="fa-solid fa-fire text-red-950 "></i>A taste explosion engineered with smoky layers, molten cheese cores, and spice reactors that ignite your senses and power your taste buds.</li>
+        </div>
+        <div class="reviews text-center mb-10 me-5 "  data-aos="flip-right" data-aos-duration="3000"   >
+            <h3 class="text-3xl">Reviews ⭐⭐⭐⭐⭐</h3>
+            <div class="reviews-customer">
+                <h4 class="text-2xl">⭐ 1. “Ran on one bite for an entire day!”</h4>
+                <p>“I had the Infinity Burger before my shift, and I didn’t feel hungry till midnight. It’s like eating a battery — but a delicious one.”</p>
+                <span>— Ravi K., Fitness Trainer</span><br><br>
+                <h4 class="text-2xl">⭐ 2. “Tastes like motivation wrapped in cheese.”</h4>
+                <p>“Forget coffee — one bite and I was ready to conquer deadlines, gym, and life. The flavor hits harder than caffeine.”</p>
+                <span>— Sneha M., Designer & Food Explorer</span>
+            </div>
+
+        </div>
+    </section>
+    <footer  class="bg-black flex justify-between">
+        <div class="company-logo">
+            <img src="./assets/logo-removebg-preview (1).png" alt="">
+        </div>
+        <div class="flex gap-6 items-center justify-center me-9  py-5">
+  <i class="fa-brands fa-linkedin text-5xl text-white hover:text-blue-400"></i>
+  <i class="fa-brands fa-instagram text-5xl text-white hover:text-pink-500"></i>
+  <i class="fa-brands fa-facebook text-5xl text-white hover:text-blue-600"></i>
+  <i class="fa-solid fa-envelope text-5xl text-white hover:text-yellow-400"></i>
+</div>
+
+        <div class="goto-top p-5 rounded-full ">
+            <a href="#"><i class="fa-solid fa-angle-up bg-orange-300 text-white text-5xl rounded-full hover:text-red-900 "></i></a>
+        </div>
+        
+    </footer>
+    <p class="text-white bg-black text-center  pb-2">&copy; Designed and developed by &reg;Athul </p>
+  </body>
+  <script>
+  AOS.init();
+</script>
+</html>
