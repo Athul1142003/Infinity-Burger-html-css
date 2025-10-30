@@ -40,13 +40,13 @@
   </head>
   <body class="bg-yellow-100">
     <header>
-      <nav class="flex justify-between p">
+      <nav class="sm:flex justify-between p">
         <img class="animate__animated animate__fadeInLeft" src="./assets/logo.png" alt="" />
         <ul class="gap-10 align-center animate__animated animate__fadeInRight text-3xl">
-          <li class="text-orange-600 hover:text-orange-300">
+          <li class="text-orange-200  hover:text-orange-300">
             <a href="">home</a>
           </li>
-          <li class="text-orange-600 hover:text-orange-300">
+          <li class="text-orange-200 hover:text-orange-300">
             <a href="">reviews</a>
           </li>
           <li
@@ -58,7 +58,7 @@
         </ul>
       </nav>
     </header>
-    <section class="hero-section mt-20 flex justify-center gap-10">
+    <section class="hero-section mt-20 sm:flex justify-center gap-10"  style="z-index: 1000;" >
       <div  class="burger-image me-10" style="width: 250px; height: 250px">
         <img src="./assets/second image.jpg" class="w-100 h-100 rounded-2xl" style="z-index: 1;"  alt="">
         <img
@@ -66,6 +66,7 @@
           class="w-100 h-100 rounded-2xl" style="z-index: 0;"
           alt="" id="img1"
         />
+        <video src="./assets/burger video.mp4" controls autoplay loop muted style="position: relative;left: 1000px;border-radius: 15px;width: 600px; "></video>
       </div>
       <div class="hero-content" style="width: 600px;">
         <marquee behavior="" direction="">
@@ -110,22 +111,56 @@ Bite once, stay unstoppable. 💪🍔⚡</p>
 
         </div>
     </section>
-    <footer  class="bg-black flex justify-between">
-        <div class="company-logo">
-            <img src="./assets/logo-removebg-preview (1).png" alt="">
-        </div>
-        <div class="flex gap-6 items-center justify-center me-9  py-5">
-  <i class="fa-brands fa-linkedin text-5xl text-white hover:text-blue-400"></i>
-  <i class="fa-brands fa-instagram text-5xl text-white hover:text-pink-500"></i>
-  <i class="fa-brands fa-facebook text-5xl text-white hover:text-blue-600"></i>
-  <i class="fa-solid fa-envelope text-5xl text-white hover:text-yellow-400"></i>
-</div>
 
-        <div class="goto-top p-5 rounded-full ">
-            <a href="#"><i class="fa-solid fa-angle-up bg-orange-300 text-white text-5xl rounded-full hover:text-red-900 "></i></a>
+
+    <section class="franchise ms-15 " style="background-color: #f4e5d5; width: 1928px;height: 608.52px;display: flex; justify-content: center;align-items: center;">
+      <div class="" style="width: 50%;"  >
+        <h2 class="text-4xl"  data-aos="flip-left"data-aos-duration="3000" >For <span style="color: #e97e0c;">Franchise Enquiry</span> <br> <span>PLEASE FILL BELOW DETAILS</span></h2>
+        <br><br>
+        
+
+        <div class="label-class"   data-aos="fade-down-right" data-aos-duration="5000" >
+          <input type="text" placeholder="   Name" style="width: 306px;height:40px;border-radius: 7px;">
+          <input type="email" placeholder="   Email" style="width: 306px;height:40px;border-radius: 7px;">
+          <input type="number" placeholder="   Phone Number" style="width: 306px;height:40px;border-radius: 7px;">
+          <input type="text" placeholder="   State" style="width: 306px;height:40px;border-radius: 7px;">
+          <input type="text" placeholder="   Prefered Franhise Location" style="width: 306px;height:40px;border-radius: 7px;">
+          <button style="width: 100.06px;height: 38px;font-size: 16px;background-color: #f07922;color: #ffff;border-radius: 6px;">Send</button>
+        </div>
+        </div>
+        <div class="franchise-image" data-aos="fade-left" >
+          <img src="./assets/monster-burger-cartoon-mascot-character-600nw-2255932479-removebg-preview.png" alt="">
+
         </div>
         
-    </footer>
+
+      
+
+    </section>
+
+      
+
+    <footer class="bg-black sm:flex flex-wrap justify-around items-center py-5 text-center">
+  <div class="company-logo">
+    <img src="./assets/logo-removebg-preview (1).png" alt="" class="w-32 md:w-40" />
+  </div>
+
+  <div class="social-icons flex gap-6 items-center justify-center py-5">
+    <i class="fa-brands fa-linkedin text-4xl text-white hover:text-blue-400"></i>
+    <i class="fa-brands fa-instagram text-4xl text-white hover:text-pink-500"></i>
+    <i class="fa-brands fa-facebook text-4xl text-white hover:text-blue-600"></i>
+    <i class="fa-solid fa-envelope text-4xl text-white hover:text-yellow-400"></i>
+  </div>
+
+  <div class="goto-top p-4 rounded-full">
+    <a href="#">
+      <i class="fa-solid fa-angle-up bg-orange-300 text-white text-4xl rounded-full hover:text-red-900"></i>
+    </a>
+  </div>
+</footer>
+
+
+
     <p class="text-white bg-black text-center  pb-2">&copy; Designed and developed by &reg;Athul </p>
   </body>
   <script>
