@@ -286,7 +286,12 @@ html{
     right: 15px;
     bottom: 15px;
   }
+  .burger-image video{
+    height: 50%;
+  }
+
 }
+
 
 /* ------------------------------ */
 /* 🔹 Small Mobile (max-width: 480px) */
@@ -367,4 +372,8 @@ footer img {
     right: 15px;
     bottom: 15px;
   }
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* hides any horizontal scroll */
 }
