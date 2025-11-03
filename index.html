@@ -39,7 +39,7 @@
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body class="bg-yellow-100">
-    <header>
+    <header class="">
       <nav class="sm:flex justify-between p">
         <img class="animate__animated animate__fadeInLeft" src="./assets/logo.png" alt="" />
         <ul class="gap-10 align-center animate__animated animate__fadeInRight text-3xl">
@@ -59,14 +59,19 @@
       </nav>
     </header>
     <section class="hero-section mt-20 sm:flex justify-center gap-10"  style="z-index: 1000;" >
-      <div  class="burger-image me-10" style="width: 250px; height: 250px">
+
+ <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover -z-10">
+    <source src="./assets/background video.mp4" type="video/mp4">
+  </video>
+
+      <div  class="burger-image me-10" style="width: 250px; height: 250px;">
         <img src="./assets/second image.jpg" class="w-100 h-100 rounded-2xl" style="z-index: 1;"  alt="">
         <img
           src="./assets/magic-burger image.jpg"
           class="w-100 h-100 rounded-2xl" style="z-index: 0;"
           alt="" id="img1"
         />
-        <video src="./assets/burger video.mp4"  autoplay loop muted style="position: relative;left: 1000px;border-radius: 15px;width: 600px; "></video>
+        <!-- <video src="./assets/burger video.mp4"  autoplay loop muted style="position: relative;left: 1000px;border-radius: 15px;width: 600px; "></video>-->
       </div>
       <div class="hero-content" style="width: 600px;">
         <marquee behavior="" direction="">
@@ -78,7 +83,7 @@
           The Infinity burger
         </h1>
         <br />
-        <p class="text-amber-950">
+        <p class="text-slate-950  " style="font-weight:bolder;" >
           Step into the future of flavor and energy with The Infinity Bite — the
           only burger built to outlast your hunger and your day. Crafted with
           protein-rich patties, endurance-boosting grains, and a secret blend of
@@ -86,12 +91,12 @@
           power cell.
         </p>
         <br>
-        <p class="text-amber-950">From sunrise meetings to midnight adventures, this isn’t just a burger — it’s a 24-hour mission in a bun.
+        <p class="text-slate-950" style="font-weight: bolder;">From sunrise meetings to midnight adventures, this isn’t just a burger — it’s a 24-hour mission in a bun.
 Bite once, stay unstoppable. 💪🍔⚡</p>
 <button class="bg-green-600 p-5 rounded-full mt-2 hover:bg-orange-600" >Know more</button>
       </div>
     </section>
-    <section class="section-2 mb-100">
+    <section class="section-2 mt-100" style="margin-top: 500px;">
         <div class="features border border-rounded rounded-2xl  mb-20"  data-aos="flip-left" data-aos-duration="3000" >
             <h3 class="text-3xl text-lime-800 text-center my-4">Featuresss...</h3>
             <li style="color: rgb(27, 32, 7);" type="none" ><i class="fa-solid fa-bolt  text-red-400"></i>Every mouthful hits like a lightning bolt — infused with protein, natural caffeine, and endurance grains to keep your engine revving for 24 straight hours.</li><br>
